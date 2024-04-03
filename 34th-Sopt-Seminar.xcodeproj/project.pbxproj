@@ -22,6 +22,7 @@
 		951D90952BBD7AD10039E4A4 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 951D908D2BBD7AD10039E4A4 /* Pretendard-Bold.otf */; };
 		951D90962BBD7AD10039E4A4 /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 951D908E2BBD7AD10039E4A4 /* Pretendard-Thin.otf */; };
 		951D90992BBD7DC10039E4A4 /* FontLiterals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951D90982BBD7DC10039E4A4 /* FontLiterals.swift */; };
+		951D909B2BBD84330039E4A4 /* UITextField+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951D909A2BBD84330039E4A4 /* UITextField+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		951D908D2BBD7AD10039E4A4 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
 		951D908E2BBD7AD10039E4A4 /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.otf"; sourceTree = "<group>"; };
 		951D90982BBD7DC10039E4A4 /* FontLiterals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontLiterals.swift; sourceTree = "<group>"; };
+		951D909A2BBD84330039E4A4 /* UITextField+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		951D90822BBD7A260039E4A4 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				951D909A2BBD84330039E4A4 /* UITextField+.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 				951D90992BBD7DC10039E4A4 /* FontLiterals.swift in Sources */,
 				951D907D2BB7E4A80039E4A4 /* LoginViewController.swift in Sources */,
 				951D907F2BB7E8C20039E4A4 /* WelcomeViewController.swift in Sources */,
+				951D909B2BBD84330039E4A4 /* UITextField+.swift in Sources */,
 				951D90692BB7D7CD0039E4A4 /* AppDelegate.swift in Sources */,
 				951D906B2BB7D7CD0039E4A4 /* SceneDelegate.swift in Sources */,
 			);
