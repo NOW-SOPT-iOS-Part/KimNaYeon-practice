@@ -21,6 +21,7 @@ class WelcomeViewController: UIViewController {
         let label = UILabel(frame: CGRect(x: 140, y: 295, width: 95, height: 60))
         label.text = "???님\n반가워요!"
         label.textColor = .black
+        label.font = .font(.pretendard_extraBold, ofSize: 25)
         label.textAlignment = .center
         label.numberOfLines = 2
         return label
@@ -31,6 +32,8 @@ class WelcomeViewController: UIViewController {
         button.backgroundColor = UIColor(red: 255/255, green: 111/255, blue: 15/255, alpha: 1)
         button.setTitle("메인으로", for: .normal)
         button.setTitleColor(.white, for: .normal)
+        button.titleLabel?.font = .font(.pretendard_bold, ofSize: 18)
+        button.layer.cornerRadius = 6
         return button
     }()
     
@@ -39,18 +42,26 @@ class WelcomeViewController: UIViewController {
         button.backgroundColor = UIColor(red: 221/255, green: 222/255, blue: 227/255, alpha: 1)
         button.setTitle("다시 로그인", for: .normal)
         button.setTitleColor(UIColor(red: 172/255, green: 176/255, blue: 185/255, alpha: 1), for: .normal)
+        button.titleLabel?.font = .font(.pretendard_bold, ofSize: 18)
         button.addTarget(self, action: #selector(backToLoginButtonDidTap), for: .touchUpInside)
+        button.layer.cornerRadius = 6
         return button
     }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        setLayout()
+        bindID()
+    }
+    
+    private func setLayout() {
+        self.navigationController?.isNavigationBarHidden = true
         self.view.backgroundColor = .white
+        
         [imageView, welcomeLabel, goHomeButton, backToLoginButton].forEach {
             self.view.addSubview($0)
         }
-        bindID()
     }
     
     @objc
@@ -67,7 +78,6 @@ class WelcomeViewController: UIViewController {
 //        welcomeLabel.text = "\(idText)님\n반가워요!"
         
         if let idText = id {
-            print("\(idText)입니다")
             welcomeLabel.text = "\(idText)님\n반가워요!"
         } else {
             print("id값이 없습니다.")
