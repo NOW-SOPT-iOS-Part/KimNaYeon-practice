@@ -19,8 +19,16 @@ class LoginViewController: UIViewController {
         return label
     }()
     
+    private let stackView: UIStackView = {
+        let stackView = UIStackView(frame: CGRect(x: 20, y: 276, width: 335, height: 52*2+7))
+        stackView.axis = .vertical
+        stackView.spacing = 7
+        stackView.distribution = .fillEqually
+        return stackView
+    }()
+    
     private let idTextField: UITextField = {
-        let textField = UITextField(frame: CGRect(x: 20, y: 276, width: 335, height: 52))
+        let textField = UITextField()
         textField.placeholder = "아이디"
         textField.font = .font(.pretendard_semiBold, ofSize: 14)
         textField.textColor = .black
@@ -33,7 +41,7 @@ class LoginViewController: UIViewController {
     }()
 
     private let passwordTextField: UITextField = {
-        let textField = UITextField(frame: CGRect(x: 20, y: 335, width: 335, height: 52))
+        let textField = UITextField()
         textField.placeholder = "비밀번호"
         textField.font = .font(.pretendard_semiBold, ofSize: 14)
         textField.textColor = .black
@@ -59,9 +67,18 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        setLayout()
+    }
+    
+    private func setLayout() {
         self.view.backgroundColor = .white
-        [titleLabel, idTextField, passwordTextField, loginButton].forEach {
+        
+        [titleLabel, stackView, loginButton].forEach {
             self.view.addSubview($0)
+        }
+        
+        [idTextField, passwordTextField].forEach {
+            stackView.addArrangedSubview($0)
         }
     }
     
