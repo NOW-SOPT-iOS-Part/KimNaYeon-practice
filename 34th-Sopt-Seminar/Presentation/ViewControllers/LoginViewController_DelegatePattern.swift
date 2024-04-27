@@ -12,6 +12,7 @@ final class LoginViewController_DelegatePattern: UIViewController {
     
     private let rootView = LoginView()
     private lazy var idTextField = rootView.idTextField
+    private lazy var passwordTextField = rootView.passwordTextField
     private lazy var loginButton = rootView.loginButton
     
     override func loadView() {
@@ -51,8 +52,33 @@ extension LoginViewController_DelegatePattern {
     
     @objc
     private func loginButtonDidTap() {
-//        presentToWelcomeVC()
-        pushToWelcomeVC()
+        guard let id = idTextField.text else { return }
+        guard let password = passwordTextField.text else { return }
+        
+        let request = LoginRequestModel(
+            authenticationId: id,
+            password: password
+        )
+        
+        UserService.shared.login(request: request) { [weak self] response in
+            switch response {
+            case .success(let data):
+                guard let data = data as? LoginResponseModel else { return }
+                dump(data)
+                print("ㅇㅇ")
+                self?.pushToWelcomeVC()
+            case .requestErr:
+                print("요청 오류 입니다")
+            case .decodedErr:
+                print("디코딩 오류 입니다")
+            case .pathErr:
+                print("경로 오류 입니다")
+            case .serverErr:
+                print("서버 오류입니다")
+            case .networkFail:
+                print("네트워크 오류입니다")
+            }
+        }
     }
 }
 

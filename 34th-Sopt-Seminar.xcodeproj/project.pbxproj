@@ -37,6 +37,20 @@
 		951D91252BD686340039E4A4 /* ImageLiterals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951D91242BD686340039E4A4 /* ImageLiterals.swift */; };
 		951D91282BD6870B0039E4A4 /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951D91272BD6870B0039E4A4 /* UIImage+.swift */; };
 		951D912A2BDAA9740039E4A4 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951D91292BDAA9740039E4A4 /* WelcomeView.swift */; };
+		951D91452BDCC3D50039E4A4 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 951D91442BDCC3D50039E4A4 /* Moya */; };
+		951D91482BDCCA2A0039E4A4 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951D91472BDCCA2A0039E4A4 /* Config.swift */; };
+		951D914A2BDCCDD60039E4A4 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951D91492BDCCDD60039E4A4 /* NetworkResult.swift */; };
+		951D914C2BDCCE060039E4A4 /* MoyaLoggingPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951D914B2BDCCE060039E4A4 /* MoyaLoggingPlugin.swift */; };
+		951D914E2BDCCED10039E4A4 /* SignUpRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951D914D2BDCCED10039E4A4 /* SignUpRequestModel.swift */; };
+		951D91502BDCCEE90039E4A4 /* SignUpResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951D914F2BDCCEE90039E4A4 /* SignUpResponseModel.swift */; };
+		951D91522BDCCF190039E4A4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951D91512BDCCF190039E4A4 /* SignUpViewController.swift */; };
+		951D91552BDCCF410039E4A4 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 951D91542BDCCF410039E4A4 /* Then */; };
+		951D91572BDCCF6E0039E4A4 /* UserTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951D91562BDCCF6E0039E4A4 /* UserTargetType.swift */; };
+		951D91592BDCCF860039E4A4 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951D91582BDCCF860039E4A4 /* UserService.swift */; };
+		951D915B2BDCCFB40039E4A4 /* CheckUserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951D915A2BDCCFB40039E4A4 /* CheckUserInfoViewController.swift */; };
+		951D915D2BDCCFCB0039E4A4 /* UserInfoResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951D915C2BDCCFCB0039E4A4 /* UserInfoResponseModel.swift */; };
+		951D915F2BDCD8540039E4A4 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951D915E2BDCD8540039E4A4 /* LoginModel.swift */; };
+		951D91612BDCDB7A0039E4A4 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951D91602BDCDB7A0039E4A4 /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +85,18 @@
 		951D91242BD686340039E4A4 /* ImageLiterals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLiterals.swift; sourceTree = "<group>"; };
 		951D91272BD6870B0039E4A4 /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
 		951D91292BDAA9740039E4A4 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		951D91472BDCCA2A0039E4A4 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		951D91492BDCCDD60039E4A4 /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		951D914B2BDCCE060039E4A4 /* MoyaLoggingPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaLoggingPlugin.swift; sourceTree = "<group>"; };
+		951D914D2BDCCED10039E4A4 /* SignUpRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpRequestModel.swift; sourceTree = "<group>"; };
+		951D914F2BDCCEE90039E4A4 /* SignUpResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpResponseModel.swift; sourceTree = "<group>"; };
+		951D91512BDCCF190039E4A4 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		951D91562BDCCF6E0039E4A4 /* UserTargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTargetType.swift; sourceTree = "<group>"; };
+		951D91582BDCCF860039E4A4 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		951D915A2BDCCFB40039E4A4 /* CheckUserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckUserInfoViewController.swift; sourceTree = "<group>"; };
+		951D915C2BDCCFCB0039E4A4 /* UserInfoResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoResponseModel.swift; sourceTree = "<group>"; };
+		951D915E2BDCD8540039E4A4 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		951D91602BDCDB7A0039E4A4 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +104,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				951D91452BDCC3D50039E4A4 /* Moya in Frameworks */,
+				951D91552BDCCF410039E4A4 /* Then in Frameworks */,
 				951D90A22BC126430039E4A4 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -105,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				951D90852BBD7A520039E4A4 /* Application */,
+				951D91422BDCBE9A0039E4A4 /* Network */,
 				951D91192BD39CB90039E4A4 /* Model */,
 				951D90842BBD7A4A0039E4A4 /* Presentation */,
 				951D90802BBD79F30039E4A4 /* Global */,
@@ -184,6 +213,8 @@
 				951D90A32BC132800039E4A4 /* ScrollViewController.swift */,
 				951D91122BD38CD60039E4A4 /* ChatViewController.swift */,
 				951D911E2BD3A3C10039E4A4 /* ItemViewController.swift */,
+				951D91512BDCCF190039E4A4 /* SignUpViewController.swift */,
+				951D915A2BDCCFB40039E4A4 /* CheckUserInfoViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -204,6 +235,7 @@
 				951D91142BD38CF20039E4A4 /* ChatView.swift */,
 				951D91202BD3A41C0039E4A4 /* ItemView.swift */,
 				951D91292BDAA9740039E4A4 /* WelcomeView.swift */,
+				951D91602BDCDB7A0039E4A4 /* SignUpView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -222,8 +254,24 @@
 			children = (
 				951D911A2BD39CC70039E4A4 /* ChatModel.swift */,
 				951D91222BD681980039E4A4 /* ItemModel.swift */,
+				951D914D2BDCCED10039E4A4 /* SignUpRequestModel.swift */,
+				951D914F2BDCCEE90039E4A4 /* SignUpResponseModel.swift */,
+				951D915C2BDCCFCB0039E4A4 /* UserInfoResponseModel.swift */,
+				951D915E2BDCD8540039E4A4 /* LoginModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		951D91422BDCBE9A0039E4A4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				951D91472BDCCA2A0039E4A4 /* Config.swift */,
+				951D91492BDCCDD60039E4A4 /* NetworkResult.swift */,
+				951D914B2BDCCE060039E4A4 /* MoyaLoggingPlugin.swift */,
+				951D91562BDCCF6E0039E4A4 /* UserTargetType.swift */,
+				951D91582BDCCF860039E4A4 /* UserService.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +292,8 @@
 			name = "34th-Sopt-Seminar";
 			packageProductDependencies = (
 				951D90A12BC126430039E4A4 /* SnapKit */,
+				951D91442BDCC3D50039E4A4 /* Moya */,
+				951D91542BDCCF410039E4A4 /* Then */,
 			);
 			productName = "34th-Sopt-Seminar";
 			productReference = 951D90652BB7D7CD0039E4A4 /* 34th-Sopt-Seminar.app */;
@@ -275,6 +325,8 @@
 			mainGroup = 951D905C2BB7D7CD0039E4A4;
 			packageReferences = (
 				951D90A02BC126430039E4A4 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				951D91432BDCC3D50039E4A4 /* XCRemoteSwiftPackageReference "Moya" */,
+				951D91532BDCCF410039E4A4 /* XCRemoteSwiftPackageReference "Then" */,
 			);
 			productRefGroup = 951D90662BB7D7CD0039E4A4 /* Products */;
 			projectDirPath = "";
@@ -312,21 +364,33 @@
 			files = (
 				951D91252BD686340039E4A4 /* ImageLiterals.swift in Sources */,
 				951D90992BBD7DC10039E4A4 /* FontLiterals.swift in Sources */,
+				951D91592BDCCF860039E4A4 /* UserService.swift in Sources */,
 				951D909F2BC114930039E4A4 /* WelcomeViewController_DelegatePattern.swift in Sources */,
 				951D91132BD38CD60039E4A4 /* ChatViewController.swift in Sources */,
+				951D915D2BDCCFCB0039E4A4 /* UserInfoResponseModel.swift in Sources */,
+				951D91522BDCCF190039E4A4 /* SignUpViewController.swift in Sources */,
+				951D914C2BDCCE060039E4A4 /* MoyaLoggingPlugin.swift in Sources */,
 				951D911B2BD39CC70039E4A4 /* ChatModel.swift in Sources */,
+				951D91572BDCCF6E0039E4A4 /* UserTargetType.swift in Sources */,
 				951D91152BD38CF20039E4A4 /* ChatView.swift in Sources */,
+				951D914A2BDCCDD60039E4A4 /* NetworkResult.swift in Sources */,
 				951D90A42BC132800039E4A4 /* ScrollViewController.swift in Sources */,
 				951D909B2BBD84330039E4A4 /* UITextField+.swift in Sources */,
 				951D911F2BD3A3C10039E4A4 /* ItemViewController.swift in Sources */,
 				951D90692BB7D7CD0039E4A4 /* AppDelegate.swift in Sources */,
+				951D91612BDCDB7A0039E4A4 /* SignUpView.swift in Sources */,
 				951D906B2BB7D7CD0039E4A4 /* SceneDelegate.swift in Sources */,
 				951D91232BD681980039E4A4 /* ItemModel.swift in Sources */,
 				951D91112BD388890039E4A4 /* LoginView.swift in Sources */,
 				951D91182BD38E3B0039E4A4 /* ChatTableViewCell.swift in Sources */,
 				951D909D2BC1146D0039E4A4 /* LoginViewController_DelegatePattern.swift in Sources */,
+				951D915F2BDCD8540039E4A4 /* LoginModel.swift in Sources */,
 				951D91282BD6870B0039E4A4 /* UIImage+.swift in Sources */,
+				951D91502BDCCEE90039E4A4 /* SignUpResponseModel.swift in Sources */,
 				951D91212BD3A41C0039E4A4 /* ItemView.swift in Sources */,
+				951D91482BDCCA2A0039E4A4 /* Config.swift in Sources */,
+				951D915B2BDCCFB40039E4A4 /* CheckUserInfoViewController.swift in Sources */,
+				951D914E2BDCCED10039E4A4 /* SignUpRequestModel.swift in Sources */,
 				951D911D2BD3A3AE0039E4A4 /* ItemCollectionViewCell.swift in Sources */,
 				951D912A2BDAA9740039E4A4 /* WelcomeView.swift in Sources */,
 			);
@@ -470,6 +534,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_URL = "http://34.64.233.12:8080";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q927Z26DP6;
@@ -497,6 +562,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_URL = "http://34.64.233.12:8080";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q927Z26DP6;
@@ -551,6 +617,22 @@
 				minimumVersion = 5.7.1;
 			};
 		};
+		951D91432BDCC3D50039E4A4 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
+		951D91532BDCCF410039E4A4 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -558,6 +640,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 951D90A02BC126430039E4A4 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		951D91442BDCC3D50039E4A4 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 951D91432BDCC3D50039E4A4 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		951D91542BDCCF410039E4A4 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 951D91532BDCCF410039E4A4 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
