@@ -13,7 +13,7 @@ final class ChatTableViewCell: UITableViewCell {
     
     private let profileImageView: UIImageView = {
         let imageView = UIImageView()
-        imageView.image = ImageLiterals.Profile.person
+        imageView.image = .person
         imageView.contentMode = .scaleAspectFill
         imageView.layer.cornerRadius = 20
         imageView.clipsToBounds = true

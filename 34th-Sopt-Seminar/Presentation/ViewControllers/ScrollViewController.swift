@@ -127,7 +127,3 @@ final class ScrollViewController: UIViewController {
         }
     }
 }
-
-#Preview {
-    ScrollViewController()
-}
