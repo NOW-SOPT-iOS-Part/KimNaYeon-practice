@@ -41,7 +41,7 @@ final class LoginView: UIView {
         return textField
     }()
 
-    private let passwordTextField: UITextField = {
+    let passwordTextField: UITextField = {
         let textField = UITextField()
         textField.placeholder = "비밀번호"
         textField.font = .font(ofSize: 14, weight: .w600)
