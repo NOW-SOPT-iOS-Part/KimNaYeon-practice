@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 final class CheckUserInfoViewController: UIViewController {
-    private let logoImageView = UIImageView(image: ImageLiterals.Item.rabbit)
+    private let logoImageView = UIImageView(image: .rabbit)
     private let idLabel = UILabel()
     private let nickNameLabel = UILabel()
     private let phoneNumberLabel = UILabel()
